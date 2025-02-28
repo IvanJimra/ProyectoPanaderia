@@ -94,6 +94,10 @@ public class Principal {
 					lectura = new Scanner(System.in);
 					indice = lectura.nextInt();
 					
+					System.out.println("Editando el codigo");
+					lectura = new Scanner(System.in);
+					
+					
 					//Buscar
 					pan = imp.buscarXindice(indice);
 					System.out.println("Se encontro " + pan);
